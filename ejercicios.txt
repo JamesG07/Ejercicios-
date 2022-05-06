@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1> Ejercicios Prospercity (JAMES) </h1>
+    <script>
+    // Aquí es donde voy a practicar
+    // Mostrar los números en consola. // ingresar 3 número y verificar cual es el mayor  
+    let numeroA = 21;
+    let numeroB = 185;
+    let numeroC = 7;       
+    console.log("los númeors son: " +numeroA + ' -- ' +numeroB + ' -- ' +     numeroC); 
+    // condiciones para organizar los números.
+    if(numeroA === numeroB && numeroA === numeroC){ 
+        console.log("los tres números son iguales");
+    }
+    if( numeroA > numeroB && numeroA > numeroC){ 
+    console.log("El número mayor es: " +numeroA);
+    }
+    else if ( numeroA < numeroB && numeroB > numeroC){
+        console.log("El número mayor es: " +numeroB);  
+    }
+    else {
+        console.log("El número mayor es: " +numeroC); 
+    }
+
+    </script>
+</body>
+</html>
